@@ -14,6 +14,12 @@
   </head>
   <body>
     <main>
+      <header class="bg-white text-lg-left text-center py-3">
+        <h1 class="text-center">Discover the Unimaginable</h1>
+        <button type="button" class="btn btn-secondary">Home</button>
+        <button type="button" class="btn btn-secondary">trips</button>
+        <button type="button" class="btn btn-secondary">More</button>
+      </header>
       <section class="carousel">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
@@ -42,21 +48,20 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
+
+        <div class="container vh-100 d-flex justify-content-center align-items-center">
+          <div class="containerPesquisa text-center">
+          <p><H2>Search for the ideal place</H2></p>
+          <input class="form-control" type="text" placeholder="Country">
+          <br>
+          <input class="form-control" type="text" placeholder="City">
+          <br>
+          <button class="btn btn-wh" type="button">To look for</button>
+          </div>
+        </div>
       </section>
 
-      <div class="tela-pesquisa">
-        <form method="post">
-          <h1 class="titulo">Pesquisa</h1>
-
-          <input type="user" placeholder="Pais" class="Pais" autofocus required />
-
-          <br /><br />
-
-          <input type="user" placeholder="Cidade" class="Cidade" required />
-
-          <input class="botão" type="submit" value="Pesquisar" id="spinner" />
-        </form>
-      </div>
+      
     </main>
   </body>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
